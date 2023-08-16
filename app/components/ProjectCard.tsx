@@ -22,8 +22,8 @@ const ProjectCard: FC<projectCardProps> = ({ title, image, stack, desc, link }) 
             <div className='p-5 flex-col flex'>
                 <h1 className='font-bold text-xl border-b p-3 pt-0'>{title}</h1>
                 <div className='flex gap-3 flex-wrap pt-5'>
-                    {stack.map((e) => {
-                        return <div className='rounded-md shadow-md dark:shadow-gray-800 p-2'>{e}</div>
+                    {stack.map((e, i) => {
+                        return <div key={i} className='rounded-md shadow-md dark:shadow-gray-800 p-2'>{e}</div>
                     })}
                 </div>
                 <div className='absolute p-5 top-full invisible text-md font-semibold group-hover/card:visible w-full left-0 duration-500  group-hover/card:top-10 h-full group-hover/card:bg-white group-hover/card:block dark:group-hover/card:bg-black opacity-95 group-hover/card:z-20'>{desc}

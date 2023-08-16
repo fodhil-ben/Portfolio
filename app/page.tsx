@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className='text-xl text-center md:text-left box-border mt-10'>
         <p>
-          Hello There! I'm Fodhil, a 19 years old Computer Science student and a dedicated Web
+          Hello There! I&apos;m Fodhil, a 19 years old Computer Science student and a dedicated Web
           developer whith passion in cyber security based in Algeria
         </p>
         <p>I build dynamic web applications with fully responsive front end with a scalable and efficient backend </p>

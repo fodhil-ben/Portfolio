@@ -36,7 +36,7 @@ const About = () => {
                 <div className='text-xl mt-20 border-t dark:border-gray-800 tracking-wider line shadow-xl p-10 rounded-lg dark:shadow-gray-800'>
                     <p>Hello there! I am Fodhil, a first-year student at the Higher School of Computer Science in Sidi Bel Abbes.</p>
                     <br />
-                    <p>I'm an aspiring full-stack developer with a passion for cybersecurity. I enjoy solving CTF challenges and am on an exciting journey to master the art of crafting seamless web experiences while exploring the complex world of cybersecurity.</p>
+                    <p>I&apos;m an aspiring full-stack developer with a passion for cybersecurity. I enjoy solving CTF challenges and am on an exciting journey to master the art of crafting seamless web experiences while exploring the complex world of cybersecurity.</p>
                     <br />
                     <p>With a strong interest in both front-end and back-end development, I am committed to refining my skills and expanding my knowledge to create innovative solutions that merge functionality with security.</p>
                 </div>
@@ -46,7 +46,7 @@ const About = () => {
                 <MainTitle title={'Technologies that i used'} />
                 <div className='flex mt-20 flex-wrap justify-between gap-x-5 gap-y-3 md:gap-x-10 md:gap-y-5'>
                     {Technologies.map((e, i) => {
-                        return <div className='border hover:bg-black dark:shadow-gray-800 shadow-2xl hover:text-white dark:hover:bg-white dark:hover:text-black p-3 flex rounded-lg duration-500 items-center gap-4'>
+                        return <div key={i} className='border hover:bg-black dark:shadow-gray-800 shadow-2xl hover:text-white dark:hover:bg-white dark:hover:text-black p-3 flex rounded-lg duration-500 items-center gap-4'>
                             <div className='lg:text-xl lg:font-medium'>{e.name}</div>
                             <div className='text-2xl lg:text-6xl'>{e.logo}</div>
                         </div>
