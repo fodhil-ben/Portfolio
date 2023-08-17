@@ -12,7 +12,7 @@ const Contact = () => {
             <MainTitle title={'Contact Me'} />
             <div className="tracking-wider px-10 container m-auto gap-14 flex justify-center lg:justify-between flex-col lg:flex-row">
                 <div className="lg:w-1/3 h-fit grid gap-10 shadow-xl border-t dark:border-gray-800 rounded-xl p-10">
-                    <div className="grid gap-5 text-2xl">
+                    <div className="grid gap-5 md:text-2xl">
                         <div className="flex justify-start  items-center gap-5">
                             <MdEmail></MdEmail>
                             <h1>f.benhiba@esi-sba.dz</h1>
