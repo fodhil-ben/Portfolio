@@ -18,6 +18,7 @@ const ProjectCard: FC<projectCardProps> = ({ title, image, stack, desc, link }) 
                 src={image}
                 alt={title}
                 className='w-full'
+                placeholder="blur"
             />
             <div className='p-5 flex-col flex'>
                 <h1 className='font-bold text-xl border-b p-3 pt-0'>{title}</h1>
