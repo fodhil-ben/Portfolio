@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Me from '../public/MyPicture.jpg'
+import Me from '../public/MyPicture.png'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiOutlineMail } from 'react-icons/hi'
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
           priority={true}
           alt='Picture Of me'
           className='w-60 m-auto md:w-80 rounded-full'
+          placeholder='blur'
         />
         <div className='grid gap-5 mt-5'>
           <h1 className='text-center font-bold text-3xl'>Fodhil Benhiba</h1>
