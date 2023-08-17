@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Me from '../public/MyPicture.png'
+import Me from '../public/MyPicture.webp'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiOutlineMail } from 'react-icons/hi'
 export default function Home() {
