@@ -36,12 +36,12 @@ export async function POST(req: Request) {
     }
     else {
         try {
-            // await transporter.sendMail({
-            //     ...mailInfo,
-            //     subject: 'Message from Contact form',
-            //     text: `message from ${name} from Contact me form`,
-            //     html: generateEmailContent({ email, name, message })
-            // })
+            await transporter.sendMail({
+                ...mailInfo,
+                subject: 'Message from Contact form',
+                text: `message from ${name} from Contact me form`,
+                html: generateEmailContent({ email, name, message })
+            })
             return new Response(JSON.stringify({ message: 'Message sent' }), { status: 200 })
         } catch (error) {
             console.log('error')
