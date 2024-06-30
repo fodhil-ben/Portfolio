@@ -1,10 +1,12 @@
 import React from 'react'
 import MainTitle from '../components/MainTitle'
 import { BiLogoPostgresql, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi'
-import { SiSocketdotio, SiExpress, SiNextdotjs } from 'react-icons/si'
+import { SiSocketdotio, SiExpress, SiNextdotjs, SiPrisma, SiGraphql, SiApollographql} from 'react-icons/si'
+
 import { DiNodejs } from 'react-icons/di'
 import { BsGit } from 'react-icons/bs'
-import { FaPython } from 'react-icons/fa'
+import { FaDocker, FaPython, FaLaravel } from 'react-icons/fa'
+
 
 interface Technology {
     name: string
@@ -25,6 +27,13 @@ const Technologies: Technology[] = [
     { name: 'Next js', logo: <SiNextdotjs /> },
     { name: 'Typescript', logo: <BiLogoTypescript /> },
     { name: 'Python', logo: <FaPython /> },
+    
+    { name: 'Prisma', logo: <SiPrisma />    },
+    // { name: 'Drizzle', logo: <SiDrizzle />    },
+    { name: 'GraphQL', logo: <SiGraphql />    },
+    { name: 'Appolo Server', logo: <SiApollographql />    },
+    { name: 'Docker', logo:<FaDocker />    },
+    { name: 'Laravel', logo: <FaLaravel />    },
 ];
 
 const About = () => {
