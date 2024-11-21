@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className='text-center text-lg '>Web developer | Cyber Security enthusiast | CTF player</h2>
           <div className='flex justify-center gap-5 text-2xl'>
             <a href='https://github.com/fodhil-ben'><BsGithub></BsGithub></a>
-            <a href='https://www.linkedin.com/in/fodhil-benhiba-446623276/'><BsLinkedin></BsLinkedin></a>
+            <a href='https://www.linkedin.com/in/fodhil-benhiba/'><BsLinkedin></BsLinkedin></a>
             <a href='/Contact'><HiOutlineMail></HiOutlineMail></a>
           </div>
         </div>
